@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/eaamj01/head-for-go/magazine"
+	"github.com/eaamj01/head-first-go/magazine"
 )
 
 func main() {

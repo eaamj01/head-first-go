@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eaamj01/head-for-go/shapes"
+	"github.com/eaamj01/head-first-go/shapes"
 )
 
 // check logs an error and exits if the error is not nil.

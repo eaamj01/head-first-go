@@ -1,6 +1,6 @@
 package main
 
-import "github.com/eaamj01/head-for-go/gadget"
+import "github.com/eaamj01/head-first-go/gadget"
 
 func main() {
 	player := gadget.TapePlayer{}

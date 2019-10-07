@@ -44,6 +44,6 @@ func scanDirectory(path string) {
 
 func main() {
 	defer reportPanic()
-	scanDirectory("/Users/andyjackson/go/src/github.com/eaamj01/head-for-go")
+	scanDirectory("/Users/andyjackson/go/src/github.com/eaamj01/head-first-go")
 
 }
