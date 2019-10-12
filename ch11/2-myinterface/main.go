@@ -1,6 +1,6 @@
 package main
 
-import "github.com/eaamj01/head-for-go/mypkg"
+import "github.com/eaamj01/head-first-go/mypkg"
 
 func main() {
 	var value mypkg.MyInterface

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/eaamj01/head-for-go/gadget"
+	"github.com/eaamj01/head-first-go/gadget"
 )
 
 //Player interface

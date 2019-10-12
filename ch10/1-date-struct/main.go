@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eaamj01/head-for-go/calendar"
+	"github.com/eaamj01/head-first-go/calendar"
 )
 
 func dateSetting() {
