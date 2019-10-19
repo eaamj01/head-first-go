@@ -7,7 +7,7 @@ import (
 
 func reportNap(name string, delay int) {
 	for i := 0; i < delay; i++ {
-		fmt.Println(name, "sleeping")
+		fmt.Println(name, "is sleeping")
 		time.Sleep(1 * time.Second)
 	}
 	fmt.Println(name, "wakes up!")
