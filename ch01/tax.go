@@ -2,13 +2,10 @@ package main
 
 import "fmt"
 
-func main() {
-	// int
-	price := 100
+func tax(price int, taxRate float64) (float64, bool) {
+
 	fmt.Println("Price is", price, "dollars")
 
-	// float64
-	taxRate := 0.08
 	tax := float64(price) * taxRate
 	fmt.Println("Tax is", tax, "dollars")
 
@@ -18,5 +15,5 @@ func main() {
 	availableFunds := 120
 	fmt.Println(availableFunds, "dollars available")
 	fmt.Println("Within budget?", total <= float64(availableFunds))
-
+	return total, total <= float64(availableFunds)
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func apples() {
 	originalCount, eatenCount := 10, 4
 
 	fmt.Println("I started with", originalCount, "apples")

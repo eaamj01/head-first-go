@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main() string {
 	// The "builder" variable holds a "strings.Builder"
 	// value. We're not assigning a value to "builder",
 	// but that's okay; you can call methods on the
@@ -27,4 +27,5 @@ func main() {
 	// "builder", and pass the return value to
 	// "fmt.Println".
 	fmt.Println(builder.String())
+	return builder.String()
 }

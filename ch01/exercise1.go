@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func exercise1() {
 	count := 20
 	unitWeight := 0.4
 	totalWeight := float64(count) * unitWeight
