@@ -14,7 +14,7 @@ func hello() {
 	// Takes a number and rounds it down
 	fmt.Println(math.Floor(2.75))
 
-	//Capitalises the firs letter of each word
+	//Capitalises the first letter of each word
 	fmt.Println(strings.Title("head first go"))
 
 	// Rune literal - this prints 65

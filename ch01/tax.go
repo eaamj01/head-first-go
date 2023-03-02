@@ -8,8 +8,6 @@ func tax() {
 	price := 100
 	fmt.Println("Price is", price, "dollars")
 
-	// float64
-	taxRate := 0.08
 	tax := float64(price) * taxRate
 	fmt.Println("Tax is", tax, "dollars")
 
@@ -19,5 +17,5 @@ func tax() {
 	availableFunds := 120
 	fmt.Println(availableFunds, "dollars available")
 	fmt.Println("Within budget?", total <= float64(availableFunds))
-
+	return total, total <= float64(availableFunds)
 }

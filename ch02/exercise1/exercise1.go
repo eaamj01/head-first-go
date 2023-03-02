@@ -28,4 +28,5 @@ func exercise1() {
 	// "builder", and pass the return value to
 	// "fmt.Println".
 	fmt.Println(builder.String())
+	return builder.String()
 }
