@@ -4,7 +4,8 @@ import "fmt"
 
 // YOUR CODE HERE: Write a "perimeter" function.
 
-func main() {
+func exercise2() {
+	fmt.Println("exercise2")
 	// YOUR CODE HERE: Call "perimeter" three times.
 	// Add the three return values together, and store the
 	// total in the "total" variable.

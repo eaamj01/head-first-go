@@ -5,7 +5,8 @@ import "fmt"
 // YOUR CODE HERE: Write a scoreSummary function that will
 // work with the calls below.
 
-func main() {
+func exercise1() {
+	fmt.Println("exercise1")
 	fmt.Printf("%10s | %8s | %8s | %8s | %8s\n",
 		"Name", "Score 1", "Score 2", "Score 3", "Average")
 	fmt.Println("------------------------------------------------------")

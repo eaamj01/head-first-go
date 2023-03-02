@@ -5,7 +5,8 @@ import (
 	"reflect"
 )
 
-func main() {
+func pointers() {
+	fmt.Println("pointers")
 
 	myInt := 4
 	// prints *int

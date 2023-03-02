@@ -6,7 +6,8 @@ import (
 	"time"
 )
 
-func main() {
+func callingMethods() {
+	fmt.Println("callingMethods")
 	var now time.Time = time.Now()
 	var year int = now.Year()
 	fmt.Println(year)

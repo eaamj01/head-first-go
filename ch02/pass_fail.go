@@ -11,7 +11,8 @@ import (
 	"strings"
 )
 
-func main() {
+func passFail() {
+	fmt.Println("passFail")
 	fmt.Print("Enter a grade: ")
 
 	// Set-up a bufferd reader that gets text from the keyboard

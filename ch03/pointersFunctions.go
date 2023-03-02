@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
+func pointersFunctions() {
+	fmt.Println("pointersFunctions")
 	// Assign the return pointer to a variable
 	var myFloatPointer *float64 = createPointer()
 	// Print the value at the pointer

@@ -9,7 +9,8 @@ import (
 	"strings"
 )
 
-func main() {
+func exercise2() {
+	fmt.Println("exercise1")
 	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Print("Enter racer name: ")

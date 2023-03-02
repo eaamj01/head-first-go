@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"time"
 )
 
 // Page holds URL and returned size
@@ -14,9 +15,10 @@ type Page struct {
 }
 
 func main() {
+	fmt.Println(time.Now())
 	pages := make(chan Page)
-	urls := []string{"https://example.com", "https://golang.org", "https://golang.org/doc"}
-
+	// urls := []string{"https://example.com", "https://golang.org", "https://golang.org/doc"}
+	urls := []string{"http://yahoo.com", "http://google.com", "http://onet.pl", "http://sejm.gov.pl"}
 	for _, url := range urls {
 		go responseSize(url, pages)
 	}
@@ -26,6 +28,7 @@ func main() {
 		fmt.Printf("%s: %d\n", page.URL, page.Size)
 	}
 
+	fmt.Println(time.Now())
 }
 
 func responseSize(url string, channel chan Page) {

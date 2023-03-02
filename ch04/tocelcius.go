@@ -7,7 +7,8 @@ import (
 	"github.com/headfirstgo/keyboard"
 )
 
-func main() {
+func toCelcius() {
+	fmt.Println("toCelcius")
 	fmt.Println("Enter a temperature in Fahrenheit: ")
 	farenheit, err := keyboard.GetFloat()
 	if err != nil {

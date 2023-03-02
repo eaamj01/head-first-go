@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-func main() {
+func exercise2() {
+	fmt.Println("exercise2")
 	pebbleWeight := 0.1
 	rockWeight := 1.2
 	boulderWeight := 502.4

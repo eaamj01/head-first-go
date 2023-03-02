@@ -7,7 +7,8 @@ import (
 
 var metersPerLitre float64
 
-func main() {
+func paintCalc() {
+	fmt.Println("paintCalc")
 	err := errors.New("height can't be negative")
 	fmt.Println(err.Error())
 

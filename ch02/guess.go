@@ -12,7 +12,8 @@ import (
 	"time"
 )
 
-func main() {
+func guess() {
+	fmt.Println("guess")
 
 	seconds := time.Now().Unix()
 	rand.Seed(seconds)

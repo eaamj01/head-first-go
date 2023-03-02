@@ -5,7 +5,8 @@ import (
 	"strings"
 )
 
-func main() {
+func exercise1() {
+	fmt.Println("exercise1")
 	// The "builder" variable holds a "strings.Builder"
 	// value. We're not assigning a value to "builder",
 	// but that's okay; you can call methods on the

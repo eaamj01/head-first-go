@@ -9,7 +9,8 @@ import (
 	"strings"
 )
 
-func main() {
+func exercise3() {
+	fmt.Println("exercise3")
 	reader := bufio.NewReader(os.Stdin)
 
 	var sum float64

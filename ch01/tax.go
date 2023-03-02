@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
+func tax() {
+	fmt.Println("tax")
 	// int
 	price := 100
 	fmt.Println("Price is", price, "dollars")

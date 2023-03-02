@@ -6,7 +6,8 @@ import (
 	"time"
 )
 
-func main() {
+func stuff() {
+	fmt.Println("stuff")
 
 	// type time.Time
 	now := time.Now()

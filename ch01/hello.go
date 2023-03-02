@@ -7,8 +7,8 @@ import (
 	"strings"
 )
 
-func main() {
-
+func hello() {
+	fmt.Println("hello")
 	fmt.Println("Hello, \nGo!", "something else")
 
 	// Takes a number and rounds it down

@@ -8,7 +8,8 @@ import (
 	"github.com/headfirstgo/keyboard"
 )
 
-func main() {
+func passFail() {
+	fmt.Println("passFail")
 	fmt.Print("Enter a grade: ")
 	grade, err := keyboard.GetFloat()
 	if err != nil {

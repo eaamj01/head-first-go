@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
+func printStuff() {
+	fmt.Println("printStuff")
 	repeatLine("hello", 5)
 	var width, height, area float64
 	width = 4.2

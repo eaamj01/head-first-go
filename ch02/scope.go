@@ -4,7 +4,8 @@ import "fmt"
 
 var a = "a"
 
-func main() {
+func scope() {
+	fmt.Println("scope")
 	a = "a"
 	b := "b"
 	if true {
