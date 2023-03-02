@@ -1,4 +1,3 @@
-// pass_fail reports whether a grade is passing or failing.
 package main
 
 import (
@@ -8,6 +7,7 @@ import (
 	"github.com/headfirstgo/keyboard"
 )
 
+// passFail reports whether a grade is passing or failing.
 func passFail() {
 	fmt.Println("passFail")
 	fmt.Print("Enter a grade: ")
