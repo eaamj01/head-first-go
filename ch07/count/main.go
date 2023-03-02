@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/headfirstgo/datafile"
+	"github.com/eaamj01/head-first-go/datafile"
 )
 
 func main() {

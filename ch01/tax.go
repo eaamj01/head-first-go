@@ -2,10 +2,9 @@ package main
 
 import "fmt"
 
-func tax() {
+func tax(price int, taxRate float64) (float64, bool) {
 	fmt.Println("tax")
-	// int
-	price := 100
+
 	fmt.Println("Price is", price, "dollars")
 
 	tax := float64(price) * taxRate
