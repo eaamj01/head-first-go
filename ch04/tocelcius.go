@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/headfirstgo/keyboard"
+	"github.com/eaamj01/head-first-go/keyboard"
 )
 
 func toCelcius() {
