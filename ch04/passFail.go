@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/headfirstgo/keyboard"
+	"github.com/eaamj01/head-first-go/keyboard"
+	// C:\Users\Vendere\go\src\github.com\eaamj01\head-first-go\keyboard\keyboard.go
 )
 
 // passFail reports whether a grade is passing or failing.
